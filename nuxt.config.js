@@ -49,7 +49,10 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   },
+  generate: {
+    dir: 'docs'
+  },
   router: {
-    base: '/'
+    base: '/<repository-name>/'
   }
 }

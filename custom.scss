@@ -1,0 +1,17 @@
+        // Custom Bootstrap variable overrides go first
+
+
+        $enable-rounded: false;
+
+        // Then include the following
+        @import 'bootstrap/scss/bootstrap.scss';
+        @import 'bootstrap-vue/src/index.scss';
+
+        @media (min-width: 1200px) {
+          .container {
+            max-width: 1200px;
+          }
+        }
+
+        // And define any of your custom or additional CSS/SCSS here,
+        // or via an @import

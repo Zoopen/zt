@@ -53,6 +53,6 @@ export default {
     dir: 'docs'
   },
   router: {
-    base: '/<repository-name>/'
+    base: '/zt/'
   }
 }
